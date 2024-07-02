@@ -28,7 +28,7 @@
     Display="always" Required="true" Mask="false">8886</Config>
   <Config Name="数据同步路径" Target="/mnt" Default="" 
     Mode="rw" Description="挂载到容器 /mnt 目录，用于保存同步文件数据" Type="Path" 
-    Display="always" Required="false" Mask="false">/mnt/user/verysync</Config>
+    Display="always" Required="false" Mask="false">/mnt/user/bk/sync/</Config>
   <Config Name="公共中继端口" Target="3000" Default="" 
     Mode="tcp" Description="默认公共中继端口，对应容器中 3000 端口"  Type="Port" 
     Display="advanced" Required="true" Mask="false">3000</Config>
@@ -47,7 +47,7 @@
   <Config Name="用户 ID" Target="PUID" Default="" 
     Mode="" Description="运行 verysync 容器的用户" Type="Variable" 
     Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="用户组 ID" Target="GUID" Default="" 
+  <Config Name="用户组 ID" Target="PGID" Default="" 
     Mode="" Description="运行 verysync 容器的用户组" Type="Variable" 
     Display="advanced" Required="false" Mask="false">100</Config>
   <WebUI>http://[IP]:[PORT:8886]/</WebUI>
