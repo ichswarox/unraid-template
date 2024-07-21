@@ -44,7 +44,7 @@
   <Config Name="AppData 配置路径" Target="/data" Default="" 
     Mode="rw" Description="该目录将映射到容器中的 /data，用于持久化存储 VerySync 配置" Type="Path" 
     Display="advanced" Required="false" Mask="false">/mnt/user/appdata/verysync</Config>
-  <Config Name="用户 ID" Target="UID" Default="" 
+  <Config Name="用户 ID" Target="VUID" Default="" 
     Mode="" Description="运行 verysync 容器的用户" Type="Variable" 
     Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="用户组 ID" Target="GID" Default="" 
