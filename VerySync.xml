@@ -17,7 +17,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=45838.0</Support>
   <Registry>https://hub.docker.com/r/jonnyan404/verysync</Registry>
   <GitHub>https://github.com/Jonnyan404/verysync</GitHub>
-  <Repository>jonnyan404/verysync:2.5.5</Repository>
+  <Repository>jonnyan404/verysync:2.17.0</Repository>
   <Project>http://www.verysync.com/</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
