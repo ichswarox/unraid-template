@@ -47,7 +47,7 @@
   <Config Name="用户 ID" Target="VUID" Default="" 
     Mode="" Description="运行 verysync 容器的用户" Type="Variable" 
     Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="用户组 ID" Target="GID" Default="" 
+  <Config Name="用户组 ID" Target="VGID" Default="" 
     Mode="" Description="运行 verysync 容器的用户组" Type="Variable" 
     Display="advanced" Required="false" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="" 
